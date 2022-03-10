@@ -33,5 +33,5 @@ function getStudentDetailes(studentID: number)
 } {
   return null;
 }
-// :void : 이 함수는 아무것도 반환하지 않다는것을 의미
+// :void : 아무것도 반환하지 않다는것을 의미
 // :object
