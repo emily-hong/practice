@@ -1,21 +1,8 @@
-//  enum
-var GenderType;
-(function (GenderType) {
-    // 선택할 수 있는 값을 지정
-    // 숫자형 열거형
-    // Male,
-    // Female,
-    // genderNeutral,
-    // 문자형 열거형
-    GenderType["Male"] = "male";
-    GenderType["Female"] = "female";
-    GenderType["genderNeutral"] = "genderNeutral";
-})(GenderType || (GenderType = {}));
 var student1 = {
     studentID: 122231,
     studentName: 'Janet Kim',
     age: 29,
-    gender: GenderType.Female,
+    gender: 'female',
     subject: 'Nodejs',
     courseCompleted: false
 };
@@ -25,7 +12,7 @@ function getStudentDetailes(studentID) {
         studentID: 12345,
         studentName: 'Jenny Kim',
         // age: 21,
-        gender: GenderType.Male,
+        gender: 'male',
         subject: 'Javascript',
         courseCompleted: true
     };
