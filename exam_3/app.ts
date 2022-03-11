@@ -1,3 +1,9 @@
+//  enum
+enum GenderType {
+  Male,
+  Female,
+}
+
 let student1 = {
   studentID: 122231,
   studentName: 'Janet Kim',

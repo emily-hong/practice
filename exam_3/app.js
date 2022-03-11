@@ -1,3 +1,9 @@
+//  enum
+var GenderType;
+(function (GenderType) {
+    GenderType[GenderType["Male"] = 0] = "Male";
+    GenderType[GenderType["Female"] = 1] = "Female";
+})(GenderType || (GenderType = {}));
 var student1 = {
     studentID: 122231,
     studentName: 'Janet Kim',
